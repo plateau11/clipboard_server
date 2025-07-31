@@ -2,6 +2,7 @@
 
 from flask import Flask, request, jsonify, render_template
 from clipboard_data import set_clipboard, get_clipboard
+import random
 
 app = Flask(__name__)
 
