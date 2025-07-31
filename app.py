@@ -20,6 +20,11 @@ def set_clipboard_route():
     set_clipboard(text)
     return jsonify({"message": "Clipboard updated", "clipboard": text})
 
+# ✅ New endpoint to return a GIF URL
+@app.route('/getGifUrl', methods=['GET'])
+def get_gif_url():
+    gif_url = "https://raw.githubusercontent.com/plateau11/test99/main/1f5832186ffd64058efad2a3a810d006.gif"
+    return jsonify({"gif_url": gif_url})
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=6000, debug=True)
-
