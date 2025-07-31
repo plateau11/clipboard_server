@@ -7,11 +7,14 @@ import random
 app = Flask(__name__)
 
 gif_urls = [
-    "https://raw.githubusercontent.com/plateau11/test99/main/1f5832186ffd64058efad2a3a810d006.gif",
-    "https://raw.githubusercontent.com/plateau11/test99/main/0e1f8367d81e6f161d198a0b5011a62f.gif",
-    "https://raw.githubusercontent.com/plateau11/test99/main/92cdfc9bdebc53a747331999b6933734.gif",
-    "https://raw.githubusercontent.com/plateau11/test99/main/tumblr_nnozvnkRtE1uuzayro1_1280.gif",
-    "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmNhMjIwYnB6bXBsNzdtOXZjcjFjcjg0azF3d2xwMTcwdTJ6aGdiNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/13DZCJrmTryVKU/giphy.gif"
+    "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2pjcTJ2anhrZ3lodGUxc213aDRtODdmZnV6OHFuNjQxOWpjN3R5dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/12qHWnTUBzLWXS/giphy.gif",
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3cW1kc3JudGtqb3V3b3hkdjM5cXFhM2N2ZTJzNnFwdzdwaXJvZnM1dCZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/nWF3AYzIGCrg4/giphy.gif",
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3cW1kc3JudGtqb3V3b3hkdjM5cXFhM2N2ZTJzNnFwdzdwaXJvZnM1dCZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/RGLkqjTQ7ehZS/giphy.gif",
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3cW1kc3JudGtqb3V3b3hkdjM5cXFhM2N2ZTJzNnFwdzdwaXJvZnM1dCZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/Dh7hDuJoSVXdm/giphy.gif",
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3anYzNDB0bWwxZnhsZXR0NWp4eGk4dzF4Z3l2c3dmYzM3b2d1OThpOCZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/3o72FaTrfa7aMX0UqA/giphy.gif",
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3anYzNDB0bWwxZnhsZXR0NWp4eGk4dzF4Z3l2c3dmYzM3b2d1OThpOCZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/DmwX5R07PmaUE/giphy.gif",
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aTV4NG5nY281bGJtNDZzeTJoMnJ3cnJuY2hxdHN0d2JwcmFxajNkdyZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/dVoCGo2PlJLIYQR0UR/giphy.gif",
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MWF3djJxZGdjcTkwa3BxeDB2dnpnZWwyenI0ZzFrbGNwampkN3FwOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/8L17z7N2tOCxMDlfE0/giphy.gif"
 ]
 
 @app.route('/')
