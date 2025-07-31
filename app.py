@@ -10,7 +10,8 @@ gif_urls = [
     "https://raw.githubusercontent.com/plateau11/test99/main/1f5832186ffd64058efad2a3a810d006.gif",
     "https://raw.githubusercontent.com/plateau11/test99/main/0e1f8367d81e6f161d198a0b5011a62f.gif",
     "https://raw.githubusercontent.com/plateau11/test99/main/92cdfc9bdebc53a747331999b6933734.gif",
-    "https://raw.githubusercontent.com/plateau11/test99/main/tumblr_nnozvnkRtE1uuzayro1_1280.gif"
+    "https://raw.githubusercontent.com/plateau11/test99/main/tumblr_nnozvnkRtE1uuzayro1_1280.gif",
+    "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmNhMjIwYnB6bXBsNzdtOXZjcjFjcjg0azF3d2xwMTcwdTJ6aGdiNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/13DZCJrmTryVKU/giphy.gif"
 ]
 
 @app.route('/')
