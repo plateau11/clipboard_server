@@ -3,7 +3,6 @@
 from flask import Flask, request, jsonify, render_template
 from clipboard_data import set_clipboard, get_clipboard
 import random
-from itertools import cycle
 
 app = Flask(__name__)
 
@@ -59,12 +58,10 @@ def set_clipboard_route():
     set_clipboard(text)
     return jsonify({"message": "Clipboard updated", "clipboard": text})
 
-gif_cycle = cycle(gif_urls)
-
 @app.route('/getGifUrl', methods=['GET'])
 def get_gif_url():
-    url = next(gif_cycle)
-    return jsonify({"gif_url": url})
+    selected_url = random.choice(gif_urls)
+    return jsonify({"gif_url": selected_url})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=6000, debug=True)
